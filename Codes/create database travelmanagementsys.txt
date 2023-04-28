@@ -1,0 +1,11 @@
+create database travelmanagementsystem;
+ 
+show database;
+
+use travelmanagementsystem;
+
+create table account (username varchar(20), name varchar(20), password varchar(20), security varchar(200), answer varchar(20)) 
+
+show table;
+
+select * from account;
